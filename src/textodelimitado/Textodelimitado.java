@@ -30,7 +30,6 @@ public class Textodelimitado {
     String[] desc = {"parafusos", "cravos", "tachas"};
     int[] prezo = {3, 4, 5};
     Product producto;
-    String contenido[];
     NumberFormat nf = NumberFormat.getCurrencyInstance(Locale.FRANCE);
 
     public void escritura() {
